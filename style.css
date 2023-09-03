@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image:
+    url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg") ;
+    
+}
+#gamerectangle{
+       width: 71%;
+       height: 600px;
+       border: 5px solid  orange;
+       text-align: center;
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       justify-content: space-between;
+       color: aliceblue;
+       font-size: 20px;
+}
+#rod1{
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(122, 9, 94),rgb(10, 10, 233));
+}
+#rod2{
+    width: 200px;
+    height: 30px;
+    background-color:rebeccapurple;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(122, 9, 94),rgb(10, 10, 233));
+}
+#ball{
+    width: 30px;
+    height: 30px;
+    background-color: darkblue;
+    border-radius: 50%;
+    position: relative;
+    background-image: linear-gradient(rgb(27, 137, 180),rgb(218, 22, 54));
+
+}
